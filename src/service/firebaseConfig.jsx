@@ -7,7 +7,7 @@ import {getFirestore} from "firebase/firestore"
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyChNNtqnmGWqcEe7219yd2Pe4cpjjOR61A",
+  apiKey: import.meta.env.FIREBASE_API_KEY,
   authDomain: "ai-fitness-planner-4e4ab.firebaseapp.com",
   projectId: "ai-fitness-planner-4e4ab",
   storageBucket: "ai-fitness-planner-4e4ab.firebasestorage.app",
