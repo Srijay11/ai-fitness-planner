@@ -12,7 +12,7 @@ import { doc, setDoc } from "firebase/firestore";
 import {db} from '@/service/firebaseConfig'
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
-import Footer from '@/view-workout/components/footer';
+import Footer from '@/view-workout/components/Footer';
 
 
 function CreateWorkout() {
